@@ -1,0 +1,76 @@
+@CHARSET "BIG5";
+
+* {
+	margin: 0px;
+}
+*:focus {
+	outline: 0px;
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+body {
+	margin: 0px; padding: 0px; border: currentColor; color: rgb(76, 58, 44); font-family: helvetica, arial, sans-serif; background-color: rgb(243, 244, 235);
+}
+
+p {
+	line-height: 1.6em !important; font-size: 100% !important;
+}
+
+#terminal {
+	background: rgb(31, 20, 13);
+	margin: 1em 0px 0px;
+	padding: 0.25em 0px;
+	height: 200px;
+	width:500px;
+	overflow: auto;
+}
+#terminal div {
+	padding-bottom: 15px;
+}
+#terminal div.line {
+	padding: 0px;
+	margin-bottom: 5px;
+}
+#terminal input.readLine {
+	font-size: 100%;
+	border-bottom-color: rgb(31, 20, 13);
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+}
+#terminal input {
+	background: rgb(31, 20, 13);
+	margin: 1px 0px 1px 10px;
+	padding: 2px;
+	border: currentColor;
+	width: 400px;
+	color: rgb(85, 216, 57);
+	font-family: Monaco, monospace;
+	font-size: 100%;
+	display: inline;
+}
+#terminal p {
+	margin: 2px;
+	padding: 0px 8px;
+	color: rgb(85, 216, 57) !important;
+	font-family: Monaco, monospace;
+	font-size: 85%;
+}
+#terminal pre {
+	margin: 2px;
+	padding: 0px 8px;
+	color: rgb(85, 216, 57) !important;
+	font-family: Monaco, monospace;
+	font-size: 85%;
+}
+#terminal a {
+	color: rgb(85, 216, 57);
+}
+#terminal span.prompt {
+	color: rgb(85, 216, 57);
+	font-size: 93%;
+	margin-left: 12px;
+}
